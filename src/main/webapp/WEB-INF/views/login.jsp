@@ -14,10 +14,27 @@ Date date = new Date();
 %>
 <body>
 
-<div>Current date is <%=date%></div>
-<div>My First JSP</div>
-<div>Your name is ${name}</div>
-<div>Your password is not encrypted. Surprise! It's ${password}</div>
+<div>
+Current date is <%=date%>
+</div>
+<div>
+	My First JSP
+</div>
+<div>
+	Your name is ${name}
+</div>
+<div>
+	Your password is not encrypted. Surprise! It's ${password}
+</div>
+<form action="/login.do" method="post">
+	<div>
+		Enter your name in a form this time <input type="text" name="name"/>
+	</div>
+	<div>
+		<input type="submit" value="trust me and log in"/>
+	</div>
+	
 
+</form>
 </body>
 </html>
