@@ -9,7 +9,7 @@
 <body>
 
 <div>
-	Welcome! ${name }
+	Welcome! ${name}
 </div>
 
 </body> 

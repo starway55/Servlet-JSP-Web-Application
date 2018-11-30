@@ -26,10 +26,16 @@ Current date is <%=date%>
 <div>
 	Your password is not encrypted. Surprise! It's ${password}
 </div>
+<br/>
+<br/>
 <form action="/login.do" method="post">
 	<div>
-		Enter your name in a form this time <input type="text" name="name"/>
+		Name: <input type="text" name="name"/>
 	</div>
+	<div>
+		Password: <input type="password" name="password">
+	</div>
+	<div style="color: red">${errorMessage }</div>
 	<div>
 		<input type="submit" value="trust me and log in"/>
 	</div>
