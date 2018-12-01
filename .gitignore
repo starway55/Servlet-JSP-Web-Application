@@ -19,3 +19,4 @@ target/tomcat/conf/web.xml
 target/tomcat/logs/access_log.2018-11-30
 login_jsp.java
 *_jsp.java
+access_log.2018-12-02

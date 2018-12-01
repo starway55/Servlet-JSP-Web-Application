@@ -1,4 +1,4 @@
-package webapp;
+package com.yun.jee;
 
 public class UserValidationService {
 
