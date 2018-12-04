@@ -28,7 +28,7 @@ Current date is <%=date%>
 </div>
 <br/>
 <br/>
-<form action="/login.do" method="post">
+<form action="/spring-mvc/login.do" method="post">
 	<div>
 		Name: <input type="text" name="name"/>
 	</div>
